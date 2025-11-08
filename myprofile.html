@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian De Vera - Profile</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 90%;
+      max-width: 1000px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    /* Left Section */
+    .profile-section {
+      background-color: #111;
+      color: #fff;
+      flex: 1;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .profile-section img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #fff;
+    }
+
+    .profile-section h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .profile-section p {
+      font-size: 0.9em;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 8px 12px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      background-color: #fff;
+      color: #111;
+    }
+
+    /* Right Section */
+    .about-section {
+      flex: 2;
+      padding: 40px;
+    }
+
+    .about-section h2 {
+      color: #111;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    .about-section p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .about-section ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #555;
+    }
+
+    .about-section li {
+      margin-bottom: 8px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .profile-section, .about-section {
+        flex: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Left Section -->
+    <section class="profile-section">
+      <img src="c9363acf-bed8-447c-9ba3-83b6575f0923.jfif" alt="Christian De Vera">
+      <h1>Christian L. De Vera</h1>
+      <p>UX/UI Designer | Aspiring Web & Mobile Developer</p>
+      
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <!-- Right Section -->
+    <section class="about-section">
+      <h2>About Me</h2>
+      <p>
+        Hi! I’m <b>Christian L. De Vera</b>, a BSIT student and an aspiring web and mobile app developer.
+        I’m passionate about technology, design, and creating user-centered digital experiences.
+      </p>
+
+      <h2>My Interests</h2>
+      <ul>
+        <li>Web and Mobile App Development</li>
+        <li>UI/UX Design</li>
+        <li>Artificial Intelligence</li>
+        <li>Photography & Creative Design</li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>
